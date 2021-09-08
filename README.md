@@ -8,11 +8,13 @@ INSTRUCTIONS
 
 1. Download Cheat Engine 7.3
 
-2. Launch NGS2SpawnMod.CT
+2. COPY & PASTE THE CONTENTS OF NGS2 Spawn Mod - Chapter 1.CT IN NOTEPAD AND SAVE IT AS NGS2.CT
 
-3. Attach Cheat Engine To Ninja Gaiden Sigma2.exe
+2. Launch NGS2SpawnMod.CT WITH CHEAT ENGINE
 
-HOTKEYS
+3. ATTACH CHEAT ENGINE TO NINJA GAIDEN SIGMA2.EXE (GAME HAS TO BE LAUNCHED FIRST)
+
+HOTKEYS (can manually enable them as well)
 
 1 = Increase Spawn
 
