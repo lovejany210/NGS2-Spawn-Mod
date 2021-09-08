@@ -2,7 +2,7 @@
 # Only tested with story mode but apparently it works for Chapter Challenge as well
 # I will add support for more levels and keep updating the trainer as I find time
 
-CURRENT SCRIPT WILL ONLY WORK FOR CHAPTER 1 IN STORY MODE ON MASTER NINJA
+CURRENT SCRIPT WILL ONLY WORK FOR CHAPTER 1 ON MASTER NINJA. IF THE DEFAULT SPAWN AND ENCOUNTER SETUP IS TOO TOUGH, READ THE BELOW ON HOW TO MODIFY SPAWN NUMBERS & ENEMY TYPE
 
 INSTRUCTIONS
 1. Download Cheat Engine 7.3
