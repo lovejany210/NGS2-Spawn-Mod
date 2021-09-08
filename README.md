@@ -1,4 +1,4 @@
-# NGS2-Spawn-Mod
+# NGS2-Spawn-Mod-Alpha (Currently Chapter 1 support added)
 CURRENT SCRIPT WILL ONLY WORK FOR CHAPTER 1 IN STORY MODE ON MASTER NINJA
 
 INSTRUCTIONS
