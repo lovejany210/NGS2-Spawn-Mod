@@ -1,6 +1,6 @@
 # NGS2-Spawn-Mod-HP-Reduction-Alpha (Currently Chapter 1 support) (HP Reduction will work for any chapter)
 # Only tested with story mode but apparently it works for Chapter Challenge as well
-# I will add more chapters when I have time
+# I will add support for more levels and keep updating the trainer as I find time
 
 CURRENT SCRIPT WILL ONLY WORK FOR CHAPTER 1 IN STORY MODE ON MASTER NINJA
 
