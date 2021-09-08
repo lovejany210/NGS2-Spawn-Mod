@@ -326,33 +326,7 @@ unregistersymbol(INJECT)
 unregistersymbol(counter)
 dealloc(main)
 dealloc(counter)
-{
-// ORIGINAL CODE - INJECTION POINT: NINJA GAIDEN SIGMA2.exe+1607A93
 
-NINJA GAIDEN SIGMA2.exe+1607A69: 49 8D 0C 88           - lea rcx,[r8+rcx*4]
-NINJA GAIDEN SIGMA2.exe+1607A6D: 48 89 4B 20           - mov [rbx+20],rcx
-NINJA GAIDEN SIGMA2.exe+1607A71: E9 53 FF FF FF        - jmp "NINJA GAIDEN SIGMA2.exe"+16079C9
-NINJA GAIDEN SIGMA2.exe+1607A76: 48 8D 42 04           - lea rax,[rdx+04]
-NINJA GAIDEN SIGMA2.exe+1607A7A: 41 BC 03 80 00 00     - mov r12d,00008003
-NINJA GAIDEN SIGMA2.exe+1607A80: 48 89 43 20           - mov [rbx+20],rax
-NINJA GAIDEN SIGMA2.exe+1607A84: E9 27 FD FF FF        - jmp "NINJA GAIDEN SIGMA2.exe"+16077B0
-NINJA GAIDEN SIGMA2.exe+1607A89: 48 8B 4B 10           - mov rcx,[rbx+10]
-NINJA GAIDEN SIGMA2.exe+1607A8D: 49 8B D2              - mov rdx,r10
-NINJA GAIDEN SIGMA2.exe+1607A90: FF 53 08              - call qword ptr [rbx+08]
-// ---------- INJECTING HERE ----------
-NINJA GAIDEN SIGMA2.exe+1607A93: FF C0                 - inc eax
-// ---------- DONE INJECTING  ----------
-NINJA GAIDEN SIGMA2.exe+1607A95: 83 F8 07              - cmp eax,07
-NINJA GAIDEN SIGMA2.exe+1607A98: 77 27                 - ja "NINJA GAIDEN SIGMA2.exe"+1607AC1
-NINJA GAIDEN SIGMA2.exe+1607A9A: 48 98                 - cdqe 
-NINJA GAIDEN SIGMA2.exe+1607A9C: 8B 8C 86 F8 7B 60 01  - mov ecx,[rsi+rax*4+01607BF8]
-NINJA GAIDEN SIGMA2.exe+1607AA3: 48 03 CE              - add rcx,rsi
-NINJA GAIDEN SIGMA2.exe+1607AA6: FF E1                 - jmp rcx
-NINJA GAIDEN SIGMA2.exe+1607AA8: 48 8B 4B 20           - mov rcx,[rbx+20]
-NINJA GAIDEN SIGMA2.exe+1607AAC: 0F B7 41 02           - movzx eax,word ptr [rcx+02]
-NINJA GAIDEN SIGMA2.exe+1607AB0: 48 8D 0C 81           - lea rcx,[rcx+rax*4]
-NINJA GAIDEN SIGMA2.exe+1607AB4: 48 83 C1 04           - add rcx,04
-}
 </AssemblerScript>
       <Hotkeys>
         <Hotkey>
