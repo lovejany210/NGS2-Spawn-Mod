@@ -61,7 +61,7 @@ Change the value of cmp [counter],(Number).
 I.E startspawnmedium is cmp [counter],40 - lower the number to decrease the amount of enemies spawned & increase the number to increase the amount of enemies spawn. I find the values between 25-60 are good
 
 ADJUSTING ENEMIES THAT SPAWN
-Open the file "Chapter 1 Modify Enemy
+Open the file "Chapter 1 Modify Enemy"
 
 Adjust the values in setspawn (initial spawn)
    
@@ -79,3 +79,4 @@ resetiscounter:
 
 resetmagecounter:
 
+IM NOT VERY GOOD AT ASM SO HOPEFULLY SOMEONE CAN FIND A BETTER/EASIER WAY TO DO THIS
