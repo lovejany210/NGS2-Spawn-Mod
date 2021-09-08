@@ -2,7 +2,7 @@
 CURRENT SCRIPT WILL ONLY WORK FOR CHAPTER 1 IN STORY MODE ON MASTER NINJA
 
 INSTRUCTIONS
-1. Download Cheat Engine
+1. Download Cheat Engine 7.3
 2. Launch NGS2SpawnMod.CT
 3. Attach Cheat Engine To Ninja Gaiden Sigma2.exe
 
