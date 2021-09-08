@@ -5,8 +5,11 @@
 CURRENT SCRIPT WILL ONLY WORK FOR CHAPTER 1 ON MASTER NINJA. IF THE DEFAULT SPAWN AND ENCOUNTER SETUP IS TOO TOUGH, READ THE BELOW ON HOW TO MODIFY SPAWN NUMBERS & ENEMY TYPE
 
 INSTRUCTIONS
+
 1. Download Cheat Engine 7.3
+
 2. Launch NGS2SpawnMod.CT
+
 3. Attach Cheat Engine To Ninja Gaiden Sigma2.exe
 
 HOTKEYS
@@ -44,9 +47,13 @@ je startspawninsane
 Adjust each encounter as needed
 
 Option 3:
+
 startspawnlow
+
 startspawnmedium
+
 startspawnhigh
+
 startspawninsane
 
 Change the value of cmp [counter],(Number).
@@ -57,8 +64,18 @@ ADJUSTING ENEMIES THAT SPAWN
 Open the file "Chapter 1 Modify Enemy
 
 Adjust the values in setspawn (initial spawn)
+   
    mov [greycounter],4
+   
    mov [iscounter],8
+   
    mov [magecounter],6
  
-Adjust the values under resetgreycounter,resetiscounter,resetmagecounter
+Adjust the values under: 
+
+resetgreycounter:
+
+resetiscounter:
+
+resetmagecounter:
+
