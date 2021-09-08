@@ -1,4 +1,6 @@
-# NGS2-Spawn-Mod-HP-Reduction-Alpha (Currently Chapter 1 support added (story mode only), HP Reduction will work for any chapter)
+# NGS2-Spawn-Mod-HP-Reduction-Alpha (Currently Chapter 1 support) (HP Reduction will work for any chapter)
+# Only tested with story mode but apparently it works for Chapter Challenge as well
+# I will add more chapters when I have time
 CURRENT SCRIPT WILL ONLY WORK FOR CHAPTER 1 IN STORY MODE ON MASTER NINJA
 
 INSTRUCTIONS
