@@ -22,7 +22,7 @@ HOW TO EDIT ENEMY TYPES AND ENEMY SPAWN AMOUNT
 
 ADJUSTING SPAWN AMOUNT
 Open "Chapter 1 Increase Spawn"
-Option 1: Comment out using // some reset values from LINES 29-69
+Option 1: Comment out using // reset values from LINES 29-69
 Option 2: 77-240 are all the encounters in chapter 1. You have 3 options that you can set each encounter to: 
 je startspawnlow
 je startspawnmedium
