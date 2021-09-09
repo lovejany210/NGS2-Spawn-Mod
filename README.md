@@ -1,38 +1,29 @@
-# NGS2-Spawn-Mod-HP-Reduction-Alpha (Currently Chapter 1 support) (HP Reduction will work for any chapter)
-# Only tested with story mode but apparently it works for Chapter Challenge as well
-# I will add support for more levels and keep updating the trainer as I find time
+# NGS2-Spawn-Mod-HP-Reduction-Alpha-Story-Chapter-Challenge
+# UPDATE 2021-09-09 - Chapter 2 Support Added
+# Hotkey removed
 
-CURRENT SCRIPT WILL ONLY WORK FOR CHAPTER 1 ON MASTER NINJA. IF THE DEFAULT SPAWN AND ENCOUNTER SETUP IS TOO TOUGH, READ THE BELOW ON HOW TO MODIFY SPAWN NUMBERS & ENEMY TYPE
+THIS MOD WAS ONLY CREATED WITH MASTER NINJA MODE IN MIND, LOWER DIFFICULTIES ARE SUPPORTED FOR ENEMY COUNT INCREASE BUT ENEMY ENCOUNTER TYPES WILL NOT BE MODIFIED. 
+
+IF THE DEFAULT SPAWN AND ENCOUNTER SETUP IS TOO TOUGH, READ THE BELOW ON HOW TO MODIFY SPAWN NUMBERS & ENEMY TYPE
 
 INSTRUCTIONS
 
 1. Download Cheat Engine 7.3
 
-2. COPY & PASTE THE CONTENTS OF NGS2 Spawn Mod - Chapter 1.CT IN NOTEPAD AND SAVE IT AS NGS2.CT
+2. COPY & PASTE THE CONTENTS OF NGS2SPAWNMODV02.CT IN NOTEPAD AND SAVE IT AS NGS2SPAWNMODV0.2CT
 
-2. Launch NGS2SpawnMod.CT WITH CHEAT ENGINE
+2. Launch Ninja Gaiden Sigma 2 WITH CHEAT ENGINE
 
 3. ATTACH CHEAT ENGINE TO NINJA GAIDEN SIGMA2.EXE (GAME HAS TO BE LAUNCHED FIRST)
 
-HOTKEYS (can manually enable them as well)
+NOTE: ONLY ENABLE THE SPAWN AND ENEMY ENCOUNTER BASED ON THE CHAPTER YOU'RE PLAY AND DISABLE ALL THE OTHERS. THE GAME MIGHT CRASH/SOFTLOCK OTHERWISE
 
-1 = Increase Spawn
-
-2 = Modify Enemy Encounters
-
-3 = Reduce Enemy HP Half
-
-4 = Reduce Enemy HP Low
-
-5 = Reduce Enemy HP Very Low 
-
-MY RECOMMENDATION IS TO ENABLE 1,2,3. IF YOU'RE SPAWNING A LOT OF ENEMIES, I WOULD USE OPTION 4 INSTEAD OF 3
 
 HOW TO EDIT ENEMY TYPES AND ENEMY SPAWN AMOUNT
 
 ADJUSTING SPAWN AMOUNT
 
-Open "Chapter 1 Increase Spawn"
+Open "Chapter # Increase Spawn"
 
 Option 1: Comment out using // reset values from LINES 29-69
 
@@ -63,7 +54,7 @@ Change the value of cmp [counter],(Number).
 I.E startspawnmedium is cmp [counter],40 - lower the number to decrease the amount of enemies spawned & increase the number to increase the amount of enemies spawn. I find the values between 25-60 are good
 
 ADJUSTING ENEMIES THAT SPAWN
-Open the file "Chapter 1 Modify Enemy"
+Open the file "Chapter # Modify Enemy Encounters"
 
 Adjust the values in setspawn (initial spawn)
    
